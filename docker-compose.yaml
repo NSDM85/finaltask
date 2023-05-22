@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  finaltask:
+    container_name: finaltask
+    build:
+      context: ./
+      dockerfile: ./home/skill/docker/newapp/
+    ports:
+      - "8081:8081"
